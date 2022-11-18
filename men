@@ -1,0 +1,8 @@
+import math
+
+rad=float(input("Ingrese el radio de circulo: "))
+
+are=math.pi*pow(rad,2)
+longitud=2*math.pi*rad
+
+print("El area del circulo es:", longitud)
